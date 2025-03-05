@@ -1,41 +1,37 @@
 ---
 permalink: storage/task-element-replication-resynchronize-data-protection-relationship.html 
 sidebar: sidebar 
-keywords: update, replication, relationship, manually 
+keywords: ontap, cli, update, replication, relationship, manually 
 summary: Möglicherweise müssen Sie eine Replikationsbeziehung manuell aktualisieren, wenn ein Update aufgrund eines Netzwerkfehlers fehlschlägt. 
 ---
-= Aktualisieren Sie eine Replikationsbeziehung manuell
+= Synchronisieren Sie eine Replikationsbeziehung neu
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-Möglicherweise müssen Sie eine Replikationsbeziehung manuell aktualisieren, wenn ein Update aufgrund eines Netzwerkfehlers fehlschlägt.
+Sie müssen eine Replizierungsbeziehung neu synchronisieren, nachdem Sie ein Ziel-Volume schreibbar machen, nachdem ein Update fehlschlägt, weil eine gemeinsame Snapshot-Kopie nicht auf den Quell- und Ziel-Volumes vorhanden ist oder Sie die Replizierungsrichtlinie für die Beziehung ändern möchten.
 
 .Über diese Aufgabe
+Auch wenn die Resynchronisierung keinen Basistransfer erfordert, kann sie zeitaufwendig sein. Möglicherweise möchten Sie die Neusynchronisierung in Zeiten nach außerhalb der Stoßzeiten durchführen.
+
 Sie müssen den Quellpfad des Elements im Formular angeben `<hostip:>/lun/<name>`, wobei „`lun`“ die tatsächliche Zeichenfolge „`lun`“ ist und `name` der Name des Element-Volumes ist.
 
-.Schritte
-. Manuelles Aktualisieren einer Replikationsbeziehung:
+.Schritt
+. Neusynchronisierung der Quell- und Ziel-Volumes:
 +
-`snapmirror update -source-path <hostip:>/lun/<name> -destination-path <SVM:volume>|<cluster://SVM/volume>`
+`snapmirror resync -source-path <hostip:>/lun/<name> -destination-path <SVM:volume>|<cluster://SVM/volume> -type XDP -policy <policy>`
 
 +
 Eine vollständige Befehlssyntax finden Sie in der man-Page.
 
 +
-[NOTE]
-====
-Der Befehl schlägt fehl, wenn auf der Quelle und dem Ziel keine gemeinsame Snapshot Kopie vorhanden ist. Verwenden Sie `snapmirror initialize` , um die Beziehung neu zu initialisieren.
-
-====
-+
-Im folgenden Beispiel wird die Beziehung zwischen dem Quell-Volume `0005` an `volA_dst` der IP-Adresse 10.0.0.11 und dem Ziel-Volume auf aktualisiert `svm_backup`:
+Im folgenden Beispiel wird die Beziehung zwischen dem Quell-Volume `0005` an der IP-Adresse 10.0.0.11 und dem Ziel-Volume `volA_dst` auf neu synchronisiert `svm_backup`:
 
 +
 [listing]
 ----
-cluster_src::> snapmirror update -source-path 10.0.0.11:/lun/0005 -destination-path svm_backup:volA_dst
+cluster_dst::> snapmirror resync -source-path 10.0.0.11:/lun/0005 -policy MirrorLatest -destination-path svm_backup:volA_dst
 ----
 

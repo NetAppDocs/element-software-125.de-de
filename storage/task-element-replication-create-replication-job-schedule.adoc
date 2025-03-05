@@ -13,7 +13,7 @@ summary: Sie können den Job Schedule cron create Befehl verwenden, um einen Rep
 [role="lead"]
 Unabhängig davon, ob Daten von Element zu ONTAP oder von ONTAP zu Element repliziert werden, müssen Sie einen Job-Zeitplan konfigurieren, eine Richtlinie festlegen und die Beziehung erstellen und initialisieren. Sie können eine Standard- oder eine benutzerdefinierte Richtlinie verwenden.
 
-Mit der ONTAP-CLI können Sie mit dem Befehl einen Zeitplan für den Replikationsjob erstellen `job schedule cron create`. Der Job-Zeitplan legt fest, wann SnapMirror die Datensicherungsbeziehung automatisch aktualisiert, denen der Zeitplan zugewiesen ist.
+Sie können mit dem `job schedule cron create` Befehl einen Replikationsjob-Zeitplan erstellen. Der Job-Zeitplan legt fest, wann SnapMirror die Datensicherungsbeziehung automatisch aktualisiert, denen der Zeitplan zugewiesen ist.
 
 .Über diese Aufgabe
 Sie weisen beim Erstellen einer Datensicherungsbeziehung einen Job-Zeitplan zu. Wenn Sie keinen Job-Zeitplan zuweisen, müssen Sie die Beziehung manuell aktualisieren.

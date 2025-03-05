@@ -1,7 +1,7 @@
 ---
 permalink: storage/task-element-replication-define-rule-policy.html 
 sidebar: sidebar 
-keywords: define, rule, policy 
+keywords: ontap, cli, define, rule, policy 
 summary: Für benutzerdefinierte Richtlinien mit dem Richtlinientyp „Mirror-Vault“ müssen Sie mindestens eine Regel definieren, die festlegt, welche Snapshot Kopien während der Initialisierung und Aktualisierung übertragen werden. Sie können auch Regeln für Standardrichtlinien mit dem Richtlinientyp „Mirror-Vault“ definieren. 
 ---
 = Definieren Sie eine Regel für eine Richtlinie

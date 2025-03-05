@@ -2,7 +2,7 @@
 permalink: storage/task-element-replication-enable-snapmirror-source-volume.html 
 sidebar: sidebar 
 keywords: enable, snapmirror, element, source, volume 
-summary: Sie müssen SnapMirror auf dem Element Quell-Volume aktivieren, bevor Sie eine Replizierungsbeziehung erstellen können. Diese Aufgabe kann nur in der Web-Benutzeroberfläche der Element Software ausgeführt werden. 
+summary: Sie müssen SnapMirror auf dem Element Quell-Volume aktivieren, bevor Sie eine Replizierungsbeziehung erstellen können. Sie können diese Aufgabe nur in der Webbenutzeroberfläche der Element-Software oder mit den API-Methoden ausführen. 
 ---
 = Aktivieren Sie SnapMirror auf dem Element Quell-Volume
 :allow-uri-read: 
@@ -11,7 +11,7 @@ summary: Sie müssen SnapMirror auf dem Element Quell-Volume aktivieren, bevor S
 
 
 [role="lead"]
-Sie müssen SnapMirror auf dem Element Quell-Volume aktivieren, bevor Sie eine Replizierungsbeziehung erstellen können. Diese Aufgabe kann nur in der Web-Benutzeroberfläche der Element Software ausgeführt werden.
+Sie müssen SnapMirror auf dem Element Quell-Volume aktivieren, bevor Sie eine Replizierungsbeziehung erstellen können. Sie können diese Aufgabe nur in der Webbenutzeroberfläche der Element-Software oder mit den Methoden und link:../api/reference_element_api_modifyvolumes.html["ModifyVolumes"] API ausführenlink:../api/reference_element_api_modifyvolume.html["UmfyVolume"].
 
 .Bevor Sie beginnen
 * SnapMirror muss auf dem Element Cluster aktiviert sein.

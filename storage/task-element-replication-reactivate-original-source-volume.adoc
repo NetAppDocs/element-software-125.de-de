@@ -1,7 +1,7 @@
 ---
 permalink: storage/task-element-replication-reactivate-original-source-volume.html 
 sidebar: sidebar 
-keywords: reactivate. original, source, volume 
+keywords: ontap, cli, reactivate, original, source, volume 
 summary: Sie können die ursprüngliche Datensicherungsbeziehung zwischen den Quell- und Ziel-Volumes wiederherstellen, wenn Sie nicht mehr Daten vom Bestimmungsort bereitstellen müssen. 
 ---
 = Aktivieren Sie das ursprüngliche Quellvolume erneut

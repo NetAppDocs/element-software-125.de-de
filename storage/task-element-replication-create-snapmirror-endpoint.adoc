@@ -2,7 +2,7 @@
 permalink: storage/task-element-replication-create-snapmirror-endpoint.html 
 sidebar: sidebar 
 keywords: create, snapmirror, endpoint 
-summary: Sie müssen einen SnapMirror Endpunkt erstellen, bevor Sie eine Replizierungsbeziehung erstellen können. Diese Aufgabe kann nur in der Web-Benutzeroberfläche der Element Software ausgeführt werden. 
+summary: Sie müssen einen SnapMirror Endpunkt erstellen, bevor Sie eine Replizierungsbeziehung erstellen können. Sie können diese Aufgabe nur in der Webbenutzeroberfläche der Element-Software oder mit den API-Methoden ausführen. 
 ---
 = Erstellen eines SnapMirror Endpunkts
 :allow-uri-read: 
@@ -11,7 +11,7 @@ summary: Sie müssen einen SnapMirror Endpunkt erstellen, bevor Sie eine Replizi
 
 
 [role="lead"]
-Sie müssen einen SnapMirror Endpunkt erstellen, bevor Sie eine Replizierungsbeziehung erstellen können. Diese Aufgabe kann nur in der Web-Benutzeroberfläche der Element Software ausgeführt werden.
+Sie müssen einen SnapMirror Endpunkt erstellen, bevor Sie eine Replizierungsbeziehung erstellen können. Sie können diese Aufgabe nur im oder mit der ausführenlink:concept_snapmirror_labels.html["Web-UI der Element Software"]link:../api/concept_element_api_snapmirror_api_methods.html["SnapMirror API-Methoden"].
 
 .Bevor Sie beginnen
 SnapMirror muss auf dem Element Cluster aktiviert sein.

@@ -1,7 +1,7 @@
 ---
 permalink: storage/task-element-replication-make-destination-volume-writeable.html 
 sidebar: sidebar 
-keywords: make, destination, volume, write 
+keywords: ontap, cli, make, destination, volume, write 
 summary: Sie müssen das Ziel-Volume schreibbar machen, bevor Sie Daten vom Volume an die Clients bereitstellen können. Mit dem Befehl snapmirror quiesce können Sie geplante Transfers zum Ziel anhalten, den befehl snapmirror Abbruch abbrechen, um laufende Transfers zu stoppen, und mit dem snapmirror Break-Befehl wird das Ziel beschreibbar gemacht. 
 ---
 = Das Zielvolumen schreibbar machen

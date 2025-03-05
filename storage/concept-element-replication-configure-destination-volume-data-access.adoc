@@ -1,7 +1,7 @@
 ---
 permalink: storage/concept-element-replication-configure-destination-volume-data-access.html 
 sidebar: sidebar 
-keywords: configure, destination, volume, data access 
+keywords: ontap, cli, configure, destination, volume, data access 
 summary: Nachdem das Ziel-Volume schreibbar gemacht wurde, muss das Volume für den Datenzugriff konfiguriert werden. SAN-Hosts können auf die Daten vom Ziel-Volume zugreifen, bis das Quell-Volume erneut aktiviert ist. 
 ---
 = Ziel-Volume für Datenzugriff konfigurieren

@@ -2,7 +2,7 @@
 permalink: storage/concept-element-replication-create-custom-replication-policy.html 
 sidebar: sidebar 
 keywords: ontap, cli, create, custom, replication, policy, relationship, 
-summary: Sie können eine benutzerdefinierte Replikationsrichtlinie mithilfe der ONTAP-CLI erstellen, wenn die Standardrichtlinie für eine Beziehung nicht geeignet ist. 
+summary: Sie können eine benutzerdefinierte Replikationsrichtlinie erstellen, wenn die Standardrichtlinie für eine Beziehung nicht geeignet ist. 
 ---
 = Erstellen Sie eine benutzerdefinierte Replikationsrichtlinie
 :allow-uri-read: 
@@ -11,7 +11,7 @@ summary: Sie können eine benutzerdefinierte Replikationsrichtlinie mithilfe der
 
 
 [role="lead"]
-Sie können eine Standard- oder benutzerdefinierte Richtlinie verwenden, wenn Sie eine Replikationsbeziehung mit der ONTAP-CLI erstellen. Für eine benutzerdefinierte einheitliche Replikationsrichtlinie müssen Sie eine oder mehrere _rules_ definieren, die festlegen, welche Snapshot-Kopien während der Initialisierung und Aktualisierung übertragen werden.
+Sie können eine Standard- oder benutzerdefinierte Richtlinie verwenden, wenn Sie eine Replikationsbeziehung erstellen. Für eine benutzerdefinierte einheitliche Replikationsrichtlinie müssen Sie eine oder mehrere _rules_ definieren, die festlegen, welche Snapshot-Kopien während der Initialisierung und Aktualisierung übertragen werden.
 
 Sie können eine benutzerdefinierte Replikationsrichtlinie erstellen, wenn die Standardrichtlinie für eine Beziehung nicht geeignet ist. Möglicherweise möchten Sie Daten z. B. in einer Netzwerkübertragung komprimieren oder die Anzahl der Versuche, die SnapMirror unternimmt, um Snapshot-Kopien zu übertragen, ändern.
 
