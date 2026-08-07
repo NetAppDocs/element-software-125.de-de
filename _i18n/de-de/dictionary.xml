@@ -2804,7 +2804,6 @@
   <block id="954e95e0241c7b3a74f9c6a194795355" category="admonition">Um den aktuellen Status der Verschlüsselung im Ruhezustand und/oder der Softwareverschlüsselung im Ruhezustand auf dem Cluster anzuzeigen, verwenden Sie die <block ref="51ab6f075e7b9b2d3276f61c0b11b186" category="inline-link-macro-rx"></block>. Sie können die verwenden<block ref="2132cae62c1d77dfa3dd7c3447c77cf5" prefix=" " category="inline-code"></block> <block ref="e5fb14b37e1fdc8a835f7ed4e33c1c63" category="inline-link-macro-rx"></block>.</block>
   <block id="f706c2c9f764a1928af56503f593ce7c" category="inline-link-macro">Erstellen Sie einen neuen Cluster</block>
   <block id="03c723d3c658548008f592aa302e8409" category="admonition">Sie können diese Methode nicht verwenden, um die Softwareverschlüsselung im Ruhezustand zu deaktivieren. Um die Softwareverschlüsselung im Ruhezustand zu deaktivieren, muss die <block ref="dd0348ec8bd8a2d5cdfad96177d0413b" category="inline-link-macro-rx"></block>Softwareverschlüsselung im Ruhezustand deaktiviert sein.</block>
-  <block id="ed098de7c85d42c63667264da460dda3" category="list-text"><block ref="ed098de7c85d42c63667264da460dda3" category="inline-link-macro-rx"></block></block>
   <block id="41f5226364942217920c4da7dac4fdef" category="summary">Sie können die Methode DisableIdpAuthentication verwenden, um die Unterstützung für die Authentifizierung mithilfe von IDPs anderer Anbieter für das Cluster zu deaktivieren. Nach der Deaktivierung können Benutzer, die von IDPs von Drittanbietern authentifiziert wurden, nicht mehr auf das Cluster zugreifen und alle aktiven authentifizierten Sitzungen werden nicht validiert/getrennt. LDAP- und Cluster-Administratoren können über unterstützte UIs auf das Cluster zugreifen.</block>
   <block id="f7782cee0150831210cb8b1d663487e5" category="paragraph">Sie können die Methode verwenden<block ref="19212cd9e0ef02383305a27bb4236251" prefix=" " category="inline-code"></block>, um die Unterstützung für die Authentifizierung mit externen IDPs für das Cluster zu deaktivieren. Nach der Deaktivierung können Benutzer, die von IDPs von Drittanbietern authentifiziert wurden, nicht mehr auf das Cluster zugreifen und alle aktiven authentifizierten Sitzungen werden nicht validiert/getrennt. LDAP- und Cluster-Administratoren können über unterstützte UIs auf das Cluster zugreifen.</block>
   <block id="bfd29fa5d21f9a9583846d6e7975aa03" category="summary">Sie können die DisableLdapAuthentication-Methode verwenden, um die LDAP-Authentifizierung zu deaktivieren und alle LDAP-Konfigurationseinstellungen zu entfernen. Bei dieser Methode werden keine konfigurierten Cluster-Administratorkonten für Benutzer oder Gruppen entfernt. Nachdem die LDAP-Authentifizierung deaktiviert wurde, können Clusteradministratoren, die für die LDAP-Authentifizierung konfiguriert sind, nicht mehr auf das Cluster zugreifen.</block>
@@ -5846,7 +5845,6 @@
   <block id="bd9307e7e0b2eab52bad2aa3e881eb03" category="paragraph">Die kumulierten Schreibvorgänge insgesamt auf das Volume seit der Erstellung des Volumes.</block>
   <block id="b1ff5704b48e42d700d43961dd415064" category="doc">Marke</block>
   <block id="c4ce4761e466527d26b3e3d5ed1006fd" category="paragraph">NetApp, das NETAPP Logo und die auf der NetApp Markenseite aufgeführten Marken sind Marken von NetApp Inc. Andere Firmen- und Produktnamen können Marken der jeweiligen Eigentümer sein.</block>
-  <block id="a93bc0a57623c2facaa010825c808507" category="paragraph"><block ref="a93bc0a57623c2facaa010825c808507" category="inline-link-rx"></block></block>
   <block id="389d33cbc9ae9f54288b4c6fd3f5d933" category="summary">Ein SolidFire Storage Cluster bietet Quality-of-Service \(QoS\)-Parameter für einzelne Volumes. Sie können die Cluster-Performance, die in ein- und Ausgaben pro Sekunde \ (IOPS\) gemessen wird, mit drei konfigurierbaren Parametern garantieren, die QoS definieren: Min. IOPS, maximale IOPS und Burst-IOPS.</block>
   <block id="35beb39012d21be6ba566219e99021b9" category="doc">Leistung und Servicequalität</block>
   <block id="b33b7a0f1639461a3999078f0f3daabf" category="paragraph">Ein SolidFire Storage Cluster bietet QoS-Parameter (Quality of Service) für einzelne Volumes. Sie können die Cluster-Performance, die in ein- und Ausgaben pro Sekunde (IOPS) gemessen wird, mit drei konfigurierbaren Parametern garantieren, die QoS definieren: Das IOPS-Minimum, das IOPS-Maximum und die Burst-IOPS.</block>
@@ -6135,8 +6133,6 @@
   <block id="4a3ccd34d84d8d5dcf651bea4f92dde6" category="list-text"><block ref="4a3ccd34d84d8d5dcf651bea4f92dde6" category="inline-link-rx"></block></block>
   <block id="feaf808951dafefbf9943700efdb4315" category="inline-link">SolidFire und Element Software Dokumentationszentrum für frühere Versionen</block>
   <block id="049adc1802f0210729234e1fe80d95e6" category="list-text"><block ref="049adc1802f0210729234e1fe80d95e6" category="inline-link-rx"></block></block>
-  <block id="c93817bbfc3fab71f5f7ca740a11c847" category="inline-link">Ressourcen-Seite zu NetApp HCI</block>
-  <block id="bc218e71c18c2f809dffb10d3bc2a6e8" category="list-text"><block ref="bc218e71c18c2f809dffb10d3bc2a6e8" category="inline-link-rx"></block></block>
   <block id="b1eb510dd705c0d83386b5f196686d5a" category="inline-link-macro">Unterstützte Storage-Firmware-Versionen für SolidFire Storage-Nodes</block>
   <block id="2b1ef5ee19eb343f5728f051c35efde4" category="list-text"><block ref="2b1ef5ee19eb343f5728f051c35efde4" category="inline-link-macro-rx"></block></block>
   <block id="a34166d7b2a72e36c4faae9587f3fe85" category="summary">Um die Storage-Ressourcen in Ihrem System zu verwalten und Zugriff zu gewähren, müssen Sie Konten für Systemressourcen einrichten.</block>
@@ -7526,7 +7522,6 @@
   <block id="f748be22a637481aae225cff9280e791" category="list-text">*Initiatoren*: Sie können den iSCSI-Initiator IQN oder Fibre Channel-WWPNs für das Volume sehen. Jeder IQN, der einer Zugriffsgruppe hinzugefügt wird, kann auf jedes Volume in der Gruppe zugreifen, ohne dass eine CHAP-Authentifizierung erforderlich ist. Jeder zu einer Zugriffsgruppe hinzugefügte WWPN ermöglicht den Fibre-Channel-Netzwerkzugriff auf Volumes in der Zugriffsgruppe.</block>
   <block id="c2fb1f46e0a1dd8e660dc2cf928cf263" category="list-text">*QoS-Richtlinien*: Sie sehen die QoS-Richtlinie, die auf das Volume angewendet wird. Eine QoS-Richtlinie wendet standardisierte Einstellungen für IOPS-Minimum, IOPS-Maximum und IOPS-Burst auf mehrere Volumes an.</block>
   <block id="a9664f2c069d2936e0d10e7ef1bdf822" category="inline-link-macro">Performance- und QoS-Richtlinien</block>
-  <block id="720034173fbae9b2659c1996282d93d0" category="paragraph">Siehe Informationen über <block ref="e8d17d0920ed613a80faa8c0c8e7d57c" category="inline-link-macro-rx"></block>.</block>
   <block id="3500be2d6452b665360ea9b308c6c109" category="inline-link">SolidFire- und Element-Dokumentation</block>
   <block id="06ace0d3bf47e1a95240223bce9b2125" category="list-text"><block ref="06ace0d3bf47e1a95240223bce9b2125" category="inline-link-rx"></block></block>
   <block id="be03f79fc587170366cede6d4134dfb1" category="summary">Hier erfahren Sie, wie Sie FQDN-Weboberflächenzugriff auf Ihrem System konfigurieren, entfernen und beheben.</block>
@@ -8320,7 +8315,6 @@
   <block id="177512b9add0b40c38dad61838bf7d79" category="section-title">Asset Management</block>
   <block id="e578d1edd1f3c874d49e1c9e76becbbc" category="list-text"><block ref="e578d1edd1f3c874d49e1c9e76becbbc" category="inline-link-macro-rx"></block></block>
   <block id="6740b5cf3dc8479800bac9edc86cd31a" category="inline-link-macro">Verwenden Sie die REST API, um die Protokolle des Element-Systems zu erfassen</block>
-  <block id="4fff24ec2d2b11f3a503f7b0abacb1cb" category="list-text"><block ref="4fff24ec2d2b11f3a503f7b0abacb1cb" category="inline-link-macro-rx"></block></block>
   <block id="c9676e9b030c94e7e828a060b343f3db" category="list-text"><block ref="c9676e9b030c94e7e828a060b343f3db" category="inline-link-macro-rx"></block></block>
   <block id="b8ce529cfc2b9255a783e211ddb57996" category="list-text"><block ref="b8ce529cfc2b9255a783e211ddb57996" category="inline-link-macro-rx"></block></block>
   <block id="9cce958dcc64c232fd2c1c35b2dadde7" category="list-text"><block ref="9cce958dcc64c232fd2c1c35b2dadde7" category="inline-link-macro-rx"></block></block>
@@ -8457,7 +8451,6 @@
   <block id="1c45fd215e6dc295350e4f4f5e2e7e41" category="list-text"><block ref="1c45fd215e6dc295350e4f4f5e2e7e41" category="inline-xref-macro-rx"></block></block>
   <block id="a8d3424ca67e2754569ae54982c009df" category="list-text"><block ref="a8d3424ca67e2754569ae54982c009df" category="inline-xref-macro-rx"></block></block>
   <block id="a2afe432d12965caf22f4ff7eb1b173e" category="inline-xref-macro">Richten Sie einen Management-Node ein</block>
-  <block id="f17bdc3100242be6aa20374cb07b1e01" category="list-text"><block ref="f17bdc3100242be6aa20374cb07b1e01" category="inline-xref-macro-rx"></block></block>
   <block id="58eaebf972358f1cf03d386a4ade1a0f" category="inline-xref-macro">Was kommt als Nächstes?</block>
   <block id="6b758c6baa8d819395041efcb30c549d" category="list-text"><block ref="6b758c6baa8d819395041efcb30c549d" category="inline-xref-macro-rx"></block></block>
   <block id="0263150036c1e3cfabff6bedf47d102e" category="summary">Sie können auf die Element UI über die Management-virtuelle IP \(MVIP\)-Adresse des primären Cluster-Knotens zugreifen.</block>
@@ -9785,7 +9778,6 @@
   <block id="2f00805e044ca70467775f06c1872f89" category="paragraph">LDAP-Server</block>
   <block id="5483ab43104d3514dfdd7917f5a51b09" category="paragraph">389 TCP/UDP</block>
   <block id="19a0425f816e3267d5a9f5ee03f4fc4f" category="paragraph">(Optional) LDAP-Suche</block>
-  <block id="6ca93b96b4cd5e33a779ecc83fde0268" category="paragraph">Upgrades der Element Storage-Firmware</block>
   <block id="5ee0194e49d16c87d081efc156fb0d74" category="paragraph">Remote Storage Cluster MVIP</block>
   <block id="75a4d5a956df2844befb13a89867e179" category="paragraph">Kommunikation über die Verbindung des Remote-Replikationsclusters</block>
   <block id="e902ca26db3b32a7d466ef307db87d60" category="paragraph">Remote-Speicherknoten MIP</block>
@@ -10406,7 +10398,6 @@
   <block id="23fd7202fd22f55991e760ad0c321e8c" category="list-text">Vergewissern Sie sich, dass für jeden Node im Cluster ein Protokollendpunkt erstellt wurde.</block>
   <block id="856c3e7758eb11b79c64f0354ae8b417" category="admonition">Weitere Konfigurationsaufgaben sind in vSphere erforderlich. Informationen zum Registrieren von VASA Provider in vCenter finden Sie im Konfigurationsleitfaden zu VMware vSphere Virtual Volumes für SolidFire Storage_, zum Erstellen und Managen von VVol Datastores und zum Management von Storage auf Basis von Richtlinien.</block>
   <block id="ef9f3ff37cf3150278a11138bf61416f" category="inline-link">Konfigurationsleitfaden für VMware vSphere Virtual Volumes für SolidFire Storage</block>
-  <block id="3d08f19c985682eb2a632e36184cedd2" category="paragraph"><block ref="3d08f19c985682eb2a632e36184cedd2" category="inline-link-rx"></block></block>
   <block id="a25585714577ecf53e74bf6ba927939b" category="summary">Sie können Informationen zu virtuellen Volumes für alle aktiven virtuellen Volumes auf dem Cluster in der Element UI prüfen. Sie können außerdem Performance-Aktivitäten für jedes virtuelle Volume anzeigen, einschließlich Eingaben, Ausgaben, Durchsatz, Latenz, Warteschlangentiefe und Volume-Informationen</block>
   <block id="bb0b3ec1fbf17c782efc2b196ad33dd2" category="list-text">Die VVols Funktion sollte in der Element UI für den Cluster aktiviert sein.</block>
   <block id="bb4ae57cfc1de5cb77443f3b073ffc7f" category="list-text">Sie sollten einen zugeordneten Speicher-Container erstellt haben.</block>
@@ -11339,9 +11330,7 @@
   <block id="248c4c4df12448050266854cd21cd105" category="paragraph"><block ref="248c4c4df12448050266854cd21cd105" category="inline-link-rx"></block></block>
   <block id="02917d00c6e974040b113eec406f933d" category="paragraph">Systeme mit NetApp Element Software unterstützen SnapMirror Funktionen zum Kopieren und Wiederherstellen von Snapshot Kopien mit NetApp ONTAP Systemen. Der Hauptgrund für den Einsatz dieser Technologie ist die Disaster Recovery von NetApp HCI auf ONTAP. Endpunkte sind ONTAP, ONTAP Select und Cloud Volumes ONTAP. Siehe TR-4641 NetApp HCI Datensicherung.</block>
   <block id="37a9cf4fd8039696452f63fb22f06182" category="inline-link">Technischer Bericht 4641 zu NetApp HCI Datensicherung</block>
-  <block id="b456d131470ee117b6ff900f949b80c5" category="paragraph"><block ref="b456d131470ee117b6ff900f949b80c5" category="inline-link-rx"></block></block>
   <block id="0ae5c767cabcaa90f5848cabc66f8aa9" category="inline-link">Ihr Weg zur eigenen Data Fabric – mit NetApp HCI, ONTAP und konvergenter Infrastruktur</block>
-  <block id="1791fd435a83f3ee701165e29bb05b2f" category="list-text"><block ref="1791fd435a83f3ee701165e29bb05b2f" category="inline-link-rx"></block></block>
   <block id="8cb89b387c0217f2060ca414b41c63b2" category="summary">Mit SolidFire Clustern können Sie alle auf dem Cluster gespeicherten Daten mithilfe von Software- oder hardwarebasierter Verschlüsselung im Ruhezustand verschlüsseln.</block>
   <block id="07134dd620fa410023548b639cca1e69" category="doc">Aktivieren und deaktivieren Sie die Verschlüsselung für ein Cluster im Ruhezustand</block>
   <block id="b631bf7f00d77eddfcbf6feca367bd11" category="inline-link-macro">Hardware- oder softwarebasierte Verschlüsselung im Ruhezustand</block>
@@ -11501,7 +11490,6 @@
   <block id="d4f3775e2bff41a57405effb2e7249b6" category="paragraph">Sie können diese grundlegenden Schritte über die Element API verwenden, um Ihr Cluster zur Multi-Faktor-Authentifizierung einzurichten.</block>
   <block id="a8d74e35fafff7a5f37815f2dcc89753" category="paragraph">Details zu den einzelnen API-Methoden finden Sie im <block ref="c9d614c7cd4efd8daab5302738f269c2" category="inline-link-macro-rx"></block>.</block>
   <block id="88b1e425f6a8d373d7b16e1b016c6de1" category="list-text">Erstellen Sie eine neue IdP-Konfiguration (Third Party Identity Provider) für das Cluster, indem Sie die folgende API-Methode aufrufen und die IdP-Metadaten im JSON-Format übergeben:<block ref="9c795e21fce602a372254d5a09ba96ad" prefix=" " category="inline-code"></block></block>
-  <block id="168af22e9c6015f03678011bffdead13" category="paragraph">IDP-Metadaten werden im Klartextformat aus dem Drittanbieter-IdP abgerufen. Diese Metadaten müssen validiert werden, um sicherzustellen, dass sie korrekt in JSON formatiert sind. Es stehen zahlreiche JSON-Formatierer-Anwendungen zur Verfügung, zum Beispiel:https://freeformatter.com/json-escape.html.</block>
   <block id="65b69ef14e13e541a93abafc7baa59a1" category="list-text">Rufen Sie Cluster-Metadaten über spMetadataUrl ab, um sie in das IdP eines Drittanbieters zu kopieren, indem Sie die folgende API-Methode aufrufen:<block ref="fa9180a48c389ffd05a56ad89f9134ad" prefix=" " category="inline-code"></block></block>
   <block id="35cfc4986f93cb44da66955bf17e3c60" category="paragraph">SpMetadataUrl ist eine URL, mit der die Metadaten des Dienstanbieters für das IdP aus dem Cluster abgerufen werden, um eine Vertrauensbeziehung aufzubauen.</block>
   <block id="c3a1c9aeec925dec1a8d9125871ae8b6" category="list-text">Konfigurieren Sie die SAML-Behauptungen auf dem IdP eines Drittanbieters so, dass das Attribut „`NameID`“ verwendet wird, dass ein Benutzer für die Prüfprotokollierung eindeutig identifiziert wird und dass Single Logout ordnungsgemäß funktioniert.</block>
@@ -12287,4 +12275,17 @@
   <block id="055c37e82a2e8b5a5c2d073fe46d98bb" category="list-text"><block ref="055c37e82a2e8b5a5c2d073fe46d98bb" category="inline-link-macro-rx"></block></block>
   <block id="c31ff914893a6941b1e7621565be0d0c" category="list-text"><block ref="c31ff914893a6941b1e7621565be0d0c" category="inline-link-macro-rx"></block></block>
   <block id="fe3c28c386d2be6c3cbda4b2feb01c29" category="list-text"><block ref="e8348e5b207b91893f9322900bc614aa" category="inline-link-rx"></block>.</block>
+  <block id="cedd3b982f345250c95c539d68542a1c" category="admonition">Über die API stehen Zugriffstypen zur Verfügung, die in der Element UI nicht verfügbar sind.</block>
+  <block id="66ae9524f9c214ce3d4ddc510dc6384a" category="inline-link-macro">Informationen zu den in der Element Benutzeroberfläche verfügbaren Zugriffstypen</block>
+  <block id="e3ae42684db77c59ef80c04aae526de5" category="paragraph"><block ref="e3ae42684db77c59ef80c04aae526de5" category="inline-link-macro-rx"></block></block>
+  <block id="0e0184683b928cb56ed6a57775048c23" category="paragraph">Siehe Informationen über <block ref="6846dbb5bc170871ce73e182ff73fbe8" category="inline-link-macro-rx"></block>.</block>
+  <block id="8c7d040a87c37f1f3051f72abbfbcbc5" category="list-text"><block ref="8c7d040a87c37f1f3051f72abbfbcbc5" category="inline-link-macro-rx"></block></block>
+  <block id="b254c421d245be4ca380ce1a75b8ed59" category="list-text"><block ref="b254c421d245be4ca380ce1a75b8ed59" category="inline-xref-macro-rx"></block></block>
+  <block id="f72c81a1158d9efb9bad238e3c497a6c" category="inline-link-macro">Informationen zu den für Element APIs verfügbaren Zugriffstypen</block>
+  <block id="c858f3d30df8c552799df529153c0e44" category="list-text"><block ref="c858f3d30df8c552799df529153c0e44" category="inline-link-macro-rx"></block></block>
+  <block id="bd000e3a7a010d55765a9684adc1c25f" category="paragraph">Element Storage Upgrades</block>
+  <block id="161b4ed96d634114cd790ffb7038cc24" category="paragraph"><block ref="161b4ed96d634114cd790ffb7038cc24" category="inline-link-rx"></block></block>
+  <block id="c28c56f7a7ce8d5595899ccc3950cb6d" category="paragraph"><block ref="c28c56f7a7ce8d5595899ccc3950cb6d" category="inline-link-rx"></block></block>
+  <block id="145012f945e6ea9359e0b746c1a4925a" category="list-text"><block ref="145012f945e6ea9359e0b746c1a4925a" category="inline-link-rx"></block></block>
+  <block id="7d2d708fc1b62f4c25742bd74cca56c6" category="paragraph">Die IdP-Metadaten werden im Klartextformat vom Drittanbieter-IdP abgerufen. Diese Metadaten müssen validiert werden, um sicherzustellen, dass sie korrekt im JSON-Format vorliegen. Es gibt zahlreiche JSON-Formatierungsanwendungen, die verwendet werden können, zum Beispiel:https://freeformatter.com/json-escape.html.</block>
 </blocks>
